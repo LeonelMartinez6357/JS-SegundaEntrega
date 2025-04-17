@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Segunda entrega</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div class="container">
+  <h1>Segunda entrega, Leonel Martinez (Sorteo con DOM y objetos)</h1>
+
+  <form id="formulario-participante">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="number" id="edad" placeholder="Edad" required min="0" />
+    <button type="submit">Agregar Participante</button>
+  </form>
+
+  <h2>Participantes</h2>
+  <ul id="lista-participantes"></ul>
+
+  <button id="sortear">Sortear Ganador</button>
+  <button id="limpiar">Limpiar Sorteo</button>
+
+  <h2 id="resultado"></h2>
+  </div>
+</body>
+</html>
