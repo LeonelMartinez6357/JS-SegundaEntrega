@@ -1,4 +1,4 @@
-# Segunda entrega - Simulador de Sorteo
+# Segunda entrega - Sorteo con DOM y array de objetos
 
 Este proyecto es un simulador de sorteo desarrollado en JavaScript, correspondiente a la segunda entrega del curso.
 
